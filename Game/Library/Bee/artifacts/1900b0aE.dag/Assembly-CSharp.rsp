@@ -360,6 +360,7 @@
 "Assets/Class03th(Life Cycle)/Scripts/State.cs"
 "Assets/Class05th(Prefab System)/Scripts/Ability.cs"
 "Assets/Class07th(User Interface)/Scripts/Button Manager.cs"
+"Assets/Class07th(User Interface)/Scripts/Select Table.cs"
 -langversion:9.0
 /deterministic
 /optimize+
