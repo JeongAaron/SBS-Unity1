@@ -359,7 +359,9 @@
 "Assets/Class07th(User Interface)/Scripts/Button Manager.cs"
 "Assets/Class07th(User Interface)/Scripts/Select Table.cs"
 "Assets/Class08th(Movement)/Scripts/Movement.cs"
+"Assets/Class09th(Collision)/Scripts/Battery.cs"
 "Assets/Class09th(Collision)/Scripts/Sensor.cs"
+"Assets/Class10th(Instantiate & Destroy)/Scripts/WeaponManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+

@@ -14,10 +14,15 @@ public class Sensor : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
+        Battery battery = other.GetComponent<Battery>();
         //  물리적이지 않은 충돌을 하고 있을 때 호출되는 이벤트 함수
         if (other.CompareTag("Authorized"))
         {
             Debug.Log("OnTriggerStay");
+        }
+        if (battery != null)
+        {
+            battery.Increase();
         }
     }
     private void OnTriggerExit(Collider other)
