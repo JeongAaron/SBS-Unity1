@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Authorized
+  - Knife
+  - Revolver
+  - Rifle
   layers:
   - Default
   - TransparentFX

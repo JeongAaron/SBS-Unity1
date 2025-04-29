@@ -361,6 +361,10 @@
 "Assets/Class08th(Movement)/Scripts/Movement.cs"
 "Assets/Class09th(Collision)/Scripts/Battery.cs"
 "Assets/Class09th(Collision)/Scripts/Sensor.cs"
+"Assets/Class10th(Instantiate & Destroy)/Scripts/Knife.cs"
+"Assets/Class10th(Instantiate & Destroy)/Scripts/Revolver.cs"
+"Assets/Class10th(Instantiate & Destroy)/Scripts/Rifle.cs"
+"Assets/Class10th(Instantiate & Destroy)/Scripts/Weapon.cs"
 "Assets/Class10th(Instantiate & Destroy)/Scripts/WeaponManager.cs"
 -langversion:9.0
 /deterministic

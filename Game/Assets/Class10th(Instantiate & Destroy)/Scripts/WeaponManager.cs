@@ -1,19 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    [SerializeField] GameObject prefab;
+    [SerializeField] GameObject [] weapons;
+    [SerializeField] List<GameObject> weaponList;
     [SerializeField] Transform CreatePosition;
     private GameObject CurrentPrefab;
-    // Start is called before the first frame update
     void Start()
     {
-        Instantiate(prefab, CreatePosition);
-        CurrentPrefab = Instantiate(prefab, CreatePosition);
-        Debug.Log(CurrentPrefab.name);
+        for(int i = 0; i< weapons.Length; i++)
+        {
+            Instantiate(weapons[i],CreatePosition);
+            weaponList.Add(weapons[i]);
+        }
+
     }
-    
+    private void Update()
+    {
+       
+    }
+
 }
