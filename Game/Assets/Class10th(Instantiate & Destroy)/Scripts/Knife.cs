@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Knife : Weapon
 {
+    [SerializeField] Animation slash;
     public override void Attack()
     {
         Debug.Log("Slash");

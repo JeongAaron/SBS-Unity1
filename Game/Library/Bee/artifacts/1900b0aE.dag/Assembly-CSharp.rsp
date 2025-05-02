@@ -366,6 +366,8 @@
 "Assets/Class10th(Instantiate & Destroy)/Scripts/Rifle.cs"
 "Assets/Class10th(Instantiate & Destroy)/Scripts/Weapon.cs"
 "Assets/Class10th(Instantiate & Destroy)/Scripts/WeaponManager.cs"
+"Assets/Class11th(Sount System)/Scripts/AudioManager.cs"
+"Assets/Class11th(Sount System)/Scripts/Sound.cs"
 -langversion:9.0
 /deterministic
 /optimize+
