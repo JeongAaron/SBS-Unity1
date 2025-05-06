@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Class12th(Ray Cast)/Scenes/Class 12th.unity
+    guid: cefbeb14393cac14aa603a2ba8556de8
   m_configObjects: {}
